@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synapselang-python-ref"
+version = "0.1.0"
+description = "Python reference interpreter skeleton for SynapseLang"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+]
+
+[tool.setuptools]
+packages = ["synapse", "synapse.runtime", "synapse.autodiff", "synapse.stdlib"]

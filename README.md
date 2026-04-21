@@ -1,5 +1,7 @@
 # SynapseLang Python Reference Interpreter Skeleton
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19647593.svg)](https://doi.org/10.5281/zenodo.19647593)
+
 This repository provides a Python reference interpreter skeleton for **SynapseLang**, a domain-specific programming language for AI, tensors, and differentiable programming.
 
 The goal of this codebase is not to be feature-complete. It is a disciplined starting point for building:

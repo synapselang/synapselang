@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: SynapseLang
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+
+authors:
+  - family-names: Himpfen
+    given-names: Brandon
+    affiliation: Bold Outlook
+
+abstract: >
+  This initial release of SynapseLang introduces a proof-of-concept domain-specific
+  programming language designed to explore shape safety, composability, and deterministic
+  execution in artificial intelligence systems. The release establishes the foundational
+  structure of the language through a formal specification, grammar definition, and
+  a Python-based reference interpreter.
+
+doi: 10.5281/zenodo.19647593
+version: 0.1.0
+date-released: 2026-04-19
+
+url: https://github.com/synapselang/synapselang
+repository-code: https://github.com/synapselang/synapselang/tree/v0.1.0
+
+license: Apache-2.0
+
+keywords:
+  - domain-specific language
+  - artificial intelligence
+  - programming languages
+  - shape safety
+  - deterministic systems
